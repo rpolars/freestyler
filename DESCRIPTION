@@ -1,7 +1,7 @@
 Type: Package
-Package: styler
-Title: Non-Invasive Pretty Printing of R Code
-Version: 1.10.2
+Package: freestyler
+Title: Experimental fork of R styler.
+Version: 0.1.0
 Authors@R: 
     c(person(given = "Kirill",
              family = "Müller",
