@@ -3,50 +3,10 @@
 
 # styler
 
-<!-- badges: start -->
+This is an experimental fork of styler to use `=` over `<-` and speed-up styling with parallelism.
 
-[![R build
-status](https://github.com/r-lib/styler/workflows/R-CMD-check/badge.svg)](https://github.com/r-lib/styler/actions)
-[![Life cycle:
-stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
-[![codecov test
-coverage](https://app.codecov.io/gh/r-lib/styler/branch/main/graph/badge.svg)](https://app.codecov.io/gh/r-lib/styler)
-[![CRAN
-Status](https://www.r-pkg.org/badges/version/styler)](https://cran.r-project.org/package=styler)
+All credits go to the original authors.
 
-<!-- badges: end -->
-
-# Overview
-
-styler formats your code according to the [tidyverse style
-guide](https://style.tidyverse.org) (or your custom style guide) so you
-can direct your attention to the content of your code. It helps to keep
-the coding style consistent across projects and facilitate
-collaboration. You can access styler through
-
-- the RStudio Addin as demonstrated below
-- R functions like `style_pkg()`, `style_file()` or `style_text()`
-- various other tools described in
-  `vignette("third-party-integrations")`
-
-<img src="https://raw.githubusercontent.com/lorenzwalthert/some_raw_data/master/styler_0.1.gif" width="650px" />
-
-## Installation
-
-You can install the package from CRAN.
-
-``` r
-install.packages("styler")
-```
-
-Or get the development version from GitHub:
-
-``` r
-# install.packages("remotes")
-remotes::install_github("r-lib/styler")
-```
-
-## Documentation
 
 The following online docs are available:
 
